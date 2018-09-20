@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".BabyDevActivity"
+    tools:showIn="@layout/activity_baby_dev">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp">
+        <FrameLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            tools:ignore="UnknownId">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#e6005c"
+                android:textColor="#ffffff"
+                android:text="@string/question" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:background="#f2f2f2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/Answer" />
+
+                <FrameLayout
+                    android:id="@+id/comment_button"
+                    android:layout_width="90dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp">
+                    <ImageView
+
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="start"
+                        android:src="@drawable/comment_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="@string/comments"
+                         />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="110dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/add_comment"
+                    android:layout_marginRight="30dp">
+                    <ImageView
+                        android:id="@+id/plus_icon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="start"
+                        android:src="@drawable/plus_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="@string/add_comment"
+                      />
+                </FrameLayout>
+
+            </FrameLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="130dp"
+            tools:ignore="UnknownId">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#e6005c"
+                android:textColor="#ffffff"
+                android:text="@string/question" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:background="#f2f2f2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:text="@string/Answer" />
+
+                <FrameLayout
+                    android:layout_width="90dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom|start"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp">
+                    <ImageView
+                        android:id="@+id/comment_icon2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="start"
+                        android:src="@drawable/comment_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="@string/comments"
+                        />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="110dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/add_comment"
+                    android:layout_marginRight="30dp">
+                    <ImageView
+                        android:id="@+id/plus_icon2"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_gravity="start"
+                        android:src="@drawable/plus_icon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="end"
+                        android:text="@string/add_comment"
+                        />
+                </FrameLayout>
+            </FrameLayout>
+        </FrameLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="255dp"
+            android:text="What do you want to know?"
+            android:layout_marginLeft="10dp" />
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical|center"
+            android:layout_marginBottom="60dp"
+            android:ems="15"
+            android:inputType="text"
+            android:labelFor="@+id/editText1"
+            tools:ignore="LabelFor">
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="13dp"
+            android:text="Send" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

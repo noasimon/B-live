@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.b_lieve.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/up_list"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+
+        >
+
+        <ImageView
+            android:id="@+id/forum"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+
+            android:src="@drawable/forum"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/pictures"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src= "@drawable/pictures"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            />
+
+        <ImageView
+            android:id="@+id/recommendations"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/babyitems"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/meet_ups"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src= "@drawable/meetingspic"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/up_list_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="Forum"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="Pictures"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="Reccomendations"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="Meetings"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+    </LinearLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/appname"
+            android:id="@+id/app_name"
+
+            android:gravity="center"
+
+
+            />
+
+    <LinearLayout
+        android:id="@+id/mental_help"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+
+        >
+
+        <ImageView
+            android:id="@+id/call_button"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="caller"
+
+            android:src="@drawable/call2"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <ImageView
+            android:id="@+id/quiz"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/quiz"
+            android:gravity="right"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mental_help_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="Emergency Call"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:text="Do You Need Help?"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+    </LinearLayout>
